@@ -116,7 +116,7 @@ I am not affiliate or associate of the Vipps AS in any possible way. Used public
     build-backend = "setuptools.build_meta"
     ```
  * `nano setup.cfg`
-    ```toml
+    ```conf
     # setup.cfg
     [metadata]
     name = vipps
