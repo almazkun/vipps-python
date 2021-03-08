@@ -1,1 +1,1 @@
-from vipps_api import VippsEcomApi, VippsSignupApi
+from vipps.vipps_api import VippsEcomApi, VippsSignupApi

@@ -32,6 +32,7 @@ payment = VippsEcomAPi(
     callback_prefix="https://example.com/vipps/callbacks-for-payment-updates"
     fall_back="https://example.com/vipps/fallback-order-result-page/acme-shop-123-order123abc"
 )
+
 # Initiate payment
 initiate = payment.initiate_payment(
     order_id="acme-shop-123-order123abc",
