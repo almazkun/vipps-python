@@ -168,7 +168,7 @@ I am not affiliate or associate of the Vipps AS in any possible way. Used public
 4. Upload to Test.PyPI:
  * `python3 -m pip install --user --upgrade twine`
  * `python3 -m twine upload --repository testpypi dist/*`
- * username: __token__, password: your [test PyPI token](https://test.pypi.org/manage/account/#api-tokens)
+ * username: `__token__`, password: your [test PyPI token](https://test.pypi.org/manage/account/#api-tokens)
  * `curl https://test.pypi.org/project/vipps/0.1/`
 
 5. Installing package:
@@ -178,4 +178,4 @@ I am not affiliate or associate of the Vipps AS in any possible way. Used public
 
 6. Upload to the PyPI:
  * `python3 -m twine upload dist/*`
- * username: __token__, password: your [PyPI token](https://pypi.org/manage/account/#api-tokens)
+ * username: `__token__`, password: your [PyPI token](https://pypi.org/manage/account/#api-tokens)
