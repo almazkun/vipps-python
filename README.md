@@ -1,6 +1,6 @@
 # Vipps Python Library
 
-The Vipps Python library provides convenient access to the [Vipps AS API](https://github.com/vippsas) from applications written in the Python language.
+The Unofficial* Vipps Python library provides convenient access to the [Vipps AS API](https://github.com/vippsas) from applications written in the Python language.
 
 ## Currently Supports:
  * [Vipps eCom API v2](https://github.com/vippsas/vipps-ecom-api)
@@ -20,10 +20,10 @@ See the [Vipps Developers resources](https://github.com/vippsas/vipps-developers
 ## Usage
 Vipps eCommerce API version 2. Initiate payment and get redirect Url:
 ```py
-from vipps import VippsEcomAPi
+from vipps import VippsEcomApi
 
 
-payment = VippsEcomAPi(
+payment = VippsEcomApi(
     client_id="fb492b5e-7907-4d83-ba20-c7fb60ca35de",
     client_secret="Y8Kteew6GE2ZmeycEt6egg==",
     vipps_subscription_key="0f14ebcab0ec4b29ae0cb90d91b4a84a",
@@ -34,7 +34,7 @@ payment = VippsEcomAPi(
 )
 
 # Initiate payment
-initiate = payment.initiate_payment(
+initiate = payment.init_payment(
     order_id="acme-shop-123-order123abc",
     amount=200,
     transaction_text="One pair of Vipps socks",
@@ -68,6 +68,10 @@ details = payment.details_payment(
     order_id="acme-shop-123-order123abc"
 )
 ```
+
+## *Unofficial
+I am not affiliate or associate of the Vipps AS in any possible way. Used publicly available info to build this software. 
+
 
 # Create PyPI package
 1. Docs:
